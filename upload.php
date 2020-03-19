@@ -83,13 +83,16 @@ echo '<div class="container">
 //$count =0;
 foreach ($array_data as $row) {
 
-   list($ip_addres,$session_age,
+   list($ip_addres,
+    $session_age,
     $session_id,
     $user_agent,
     $accept_language,
     $transaction_id,
-    $shop_id,$time,
-    $type,$user_id,
+    $shop_id,
+    $time,
+    $type,
+    $user_id,
     $username_md5,
     $email_address,
     $domain,
