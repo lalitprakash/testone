@@ -4,8 +4,8 @@ use MaxMind\MinFraud;
 
 # The constructor for MinFraud takes your account ID, your license key, and
 # optionally an array of options.
-$mf = new MinFraud(231747,'X3MRhIz988pVLyHo');
-//$mf = new MinFraud(14675, 'ABCD5690809907890');
+//new comment..
+$mf = new MinFraud(14675, 'ABCD5690809907890');
 # Note that each ->with*() call returns a new immutable object. This means
 # that if you separate the calls into separate statements without chaining,
 # you should assign the return value to a variable each time.
