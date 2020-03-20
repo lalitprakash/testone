@@ -68,8 +68,7 @@ if ( isset($storagename) && $file = fopen( "upload/" . $storagename , 'r' ) ) {
         $row++;
     }
 fclose($file);
-   
-$mf = new MinFraud(231747,'X3MRhIz988pVLyHo');
+$mf = new MinFraud(14675, 'ABCD5690809907890');
 echo '<div class="container">           
   <table class="table">
     <thead>
